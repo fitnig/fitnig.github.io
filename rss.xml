@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>蛋疼实验室</title>
+  
+  <subtitle>永远相信，蛋疼的故障即将发生</subtitle>
+  <link href="http://danteng.org/rss.xml" rel="self"/>
+  
+  <link href="http://danteng.org/"/>
+  <updated>2021-07-07T17:41:49.350Z</updated>
+  <id>http://danteng.org/</id>
+  
+  <author>
+    <name>不认识</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>electrum钱包使用trezoe one保存私钥的方法</title>
+    <link href="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/"/>
+    <id>http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/</id>
+    <published>2021-07-05T17:14:18.000Z</published>
+    <updated>2021-07-07T17:41:49.350Z</updated>
+    
+    <content type="html"><![CDATA[<p>electrum钱包支持使用硬件钱包保存私钥，可在保证操作方便的前提下最大限度保证安全。由于私钥离线只通过trezor进行签名，所以无法窃取私钥。</p><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><p>需安装trezor bridge。</p><h2 id="创建过程"><a href="#创建过程" class="headerlink" title="创建过程"></a>创建过程</h2><p>1，运行electrum。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre1.png" alt="070521_1447_electrumtre1.png"><br>2，钱包处输入钱包名称，点击下一步。需要保证钱包名称唯一。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre2.png" alt="070521_1447_electrumtre2.png"><br>3，钱包类型选择标准钱包。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre3.png" alt="070521_1447_electrumtre3.png"><br>4，选择使用硬件设备。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre4.png" alt="070521_1447_electrumtre4.png"><br>5，选择要使用的硬件钱包。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre5.png" alt="070521_1447_electrumtre5.png"><br>6，解锁。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre6.png" alt="070521_1447_electrumtre6.png"><br>7，选择地质类型并设置路径，下列三个地址类型分别是</p><ul><li>标准地址</li><li>兼容隔离见证地址</li><li>原生隔离见证地址<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre7.png" alt="070521_1447_electrumtre7.png"><br>8，配置钱包加密参数。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre8.png" alt="070521_1447_electrumtre8.png"><br>至此，创建完成，在地址标签中可看到当前路径下地址。<h2 id="收币"><a href="#收币" class="headerlink" title="收币"></a>收币</h2>收币有两种方式，分别在接收标签和地址标签中进行。<h3 id="接收标签"><a href="#接收标签" class="headerlink" title="接收标签"></a>接收标签</h3>在接收标签中填写说明和金额，点击新地址，产生与之匹配的二维码。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre10.png" alt="070521_1447_electrumtre10.png"><h3 id="地址标签"><a href="#地址标签" class="headerlink" title="地址标签"></a>地址标签</h3>地址标签中随意选择一个地址，右键选择详细信息，获得二维码。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre11.png" alt="070521_1447_electrumtre11.png"><h2 id="发币"><a href="#发币" class="headerlink" title="发币"></a>发币</h2>1，发币过程与收币类似，在发送标签中填写收币地址和金额，点击支付。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre12.png" alt="070521_1447_electrumtre12.png"><br>2，设置手续费，点击发送。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre13.png" alt="070521_1447_electrumtre13.png"><br>3，在trezor设备上确认，币发出。<br><img src="/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre14.png" alt="070521_1447_electrumtre14.png"></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;electrum钱包支持使用硬件钱包保存私钥，可在保证操作方便的前提下最大限度保证安全。由于私钥离线只通过trezor进行签名，所以无法窃取私钥。&lt;/p&gt;
+&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="数字货币" scheme="http://danteng.org/categories/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
+    
+    
+    <category term="数字货币" scheme="http://danteng.org/tags/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
+    
+    <category term="trezor" scheme="http://danteng.org/tags/trezor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://danteng.org/2021/07/05/hello-world/"/>
+    <id>http://danteng.org/2021/07/05/hello-world/</id>
+    <published>2021-07-05T04:04:13.100Z</published>
+    <updated>2021-07-05T04:04:13.100Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
