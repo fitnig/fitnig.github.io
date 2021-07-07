@@ -9,30 +9,30 @@
   <meta name="description" content="electrum钱包支持使用硬件钱包保存私钥，可在保证操作方便的前提下最大限度保证安全。由于私钥离线只通过trezor进行签名，所以无法窃取私钥。 前提需安装trezor bridge。 创建过程1，运行electrum。2，钱包处输入钱包名称，点击下一步。需要保证钱包名称唯一。3，钱包类型选择标准钱包。4，选择使用硬件设备。5，选择要使用的硬件钱包。6，解锁。7，选择地质类型并设置路径，下列三个">
 <meta property="og:type" content="article">
 <meta property="og:title" content="electrum钱包使用trezoe one保存私钥的方法">
-<meta property="og:url" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/index.html">
+<meta property="og:url" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/index.html">
 <meta property="og:site_name" content="蛋疼实验室">
 <meta property="og:description" content="electrum钱包支持使用硬件钱包保存私钥，可在保证操作方便的前提下最大限度保证安全。由于私钥离线只通过trezor进行签名，所以无法窃取私钥。 前提需安装trezor bridge。 创建过程1，运行electrum。2，钱包处输入钱包名称，点击下一步。需要保证钱包名称唯一。3，钱包类型选择标准钱包。4，选择使用硬件设备。5，选择要使用的硬件钱包。6，解锁。7，选择地质类型并设置路径，下列三个">
 <meta property="og:locale">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre1.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre2.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre3.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre4.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre5.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre6.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre7.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre8.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre10.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre11.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre12.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre13.png">
-<meta property="og:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre14.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre1.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre2.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre3.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre4.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre5.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre6.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre7.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre8.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre10.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre11.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre12.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre13.png">
+<meta property="og:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre14.png">
 <meta property="article:published_time" content="2021-07-05T17:14:18.000Z">
 <meta property="article:modified_time" content="2021-07-07T17:41:49.350Z">
 <meta property="article:author" content="不认识">
 <meta property="article:tag" content="数字货币">
 <meta property="article:tag" content="trezor">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre1.png">
+<meta name="twitter:image" content="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/070521_1447_electrumtre1.png">
   
     <link rel="alternate" href="/rss.xml" title="蛋疼实验室" type="application/atom+xml">
   
@@ -86,7 +86,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://danteng.org"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://iosbb.com"></form>
       </div>
     </div>
   </div>
@@ -131,7 +131,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/" data-id="ckqts9fb40004kskugz6e515t" data-title="electrum钱包使用trezoe one保存私钥的方法" class="article-share-link">Teilen</a>
+      <a data-url="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/" data-id="ckqtsgqnw0003neku0fmu725d" data-title="electrum钱包使用trezoe one保存私钥的方法" class="article-share-link">Teilen</a>
       
       
       

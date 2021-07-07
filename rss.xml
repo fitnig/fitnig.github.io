@@ -3,11 +3,11 @@
   <title>蛋疼实验室</title>
   
   <subtitle>永远相信，蛋疼的故障即将发生</subtitle>
-  <link href="http://danteng.org/rss.xml" rel="self"/>
+  <link href="https://iosbb.com/rss.xml" rel="self"/>
   
-  <link href="http://danteng.org/"/>
+  <link href="https://iosbb.com/"/>
   <updated>2021-07-07T17:41:49.350Z</updated>
-  <id>http://danteng.org/</id>
+  <id>https://iosbb.com/</id>
   
   <author>
     <name>不认识</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>electrum钱包使用trezoe one保存私钥的方法</title>
-    <link href="http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/"/>
-    <id>http://danteng.org/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/</id>
+    <link href="https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/"/>
+    <id>https://iosbb.com/2021/07/06/how-to-keep-private-keys-with-trezor-one-in-electrum/</id>
     <published>2021-07-05T17:14:18.000Z</published>
     <updated>2021-07-07T17:41:49.350Z</updated>
     
@@ -34,19 +34,19 @@
     
     
     
-    <category term="数字货币" scheme="http://danteng.org/categories/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
+    <category term="数字货币" scheme="https://iosbb.com/categories/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
     
     
-    <category term="数字货币" scheme="http://danteng.org/tags/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
+    <category term="数字货币" scheme="https://iosbb.com/tags/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81/"/>
     
-    <category term="trezor" scheme="http://danteng.org/tags/trezor/"/>
+    <category term="trezor" scheme="https://iosbb.com/tags/trezor/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://danteng.org/2021/07/05/hello-world/"/>
-    <id>http://danteng.org/2021/07/05/hello-world/</id>
+    <link href="https://iosbb.com/2021/07/05/hello-world/"/>
+    <id>https://iosbb.com/2021/07/05/hello-world/</id>
     <published>2021-07-05T04:04:13.100Z</published>
     <updated>2021-07-05T04:04:13.100Z</updated>
     
